@@ -30,7 +30,7 @@ body {margin:0;
       text-align:center;
       }
 .odia h3 {
-           font-size:30px;
+           font-size:90px;
            color:blue;
            font-family:cursive;
            }
@@ -38,7 +38,7 @@ marquee{
        background:orange;
        color:red;
        font-weight:bolder;
-       
+       font-size:60px;
        }
 /*.........2nd video main.........*/
 .Thirdgroup  {
@@ -69,11 +69,11 @@ marquee{
 /*........Dance button......*/                   
 footer button {
   width:100%;
-  height:50px;
+  height:150px;
   color:white;
   outline:none;
   border:0;
-  font-size:30px;
+  font-size:80px;
   font-family:fantasy;
   font-weight:bold;
   position:fixed;
