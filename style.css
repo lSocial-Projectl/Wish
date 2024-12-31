@@ -1,0 +1,96 @@
+
+body {margin:0;
+      padding:0;
+      }
+
+
+
+
+/*......Top image......*/
+.firstimg {margin:0;
+           width:100%;
+           height:auto;
+           }
+
+
+
+
+/*......video.....*/
+.secondgroup {
+              width:100%;
+              height:160px;
+            //  border:1px solid black;
+              }
+
+
+.odia {
+      width:100%;
+      height:70px;
+     // border:1px solid blue;
+      text-align:center;
+      }
+.odia h3 {
+           font-size:30px;
+           color:blue;
+           font-family:cursive;
+           }
+marquee{
+       background:orange;
+       color:red;
+       font-weight:bolder;
+       
+       }
+/*.........2nd video main.........*/
+.Thirdgroup  {
+             width:100%;
+             height:500px;
+          //   border:1px solid black;
+            }
+.Thirdgroup video {
+                   width:100%;
+                   height:auto;
+                   }
+                   
+                   
+/*.......fourth.......*/    
+.fourth {
+        height:300px;
+        width:300px;
+        }               
+.fourth img {
+        position:absolute;
+        left:15%;
+        right:15%;
+        }               
+               
+               
+               
+               
+/*........Dance button......*/                   
+footer button {
+  width:100%;
+  height:50px;
+  color:white;
+  outline:none;
+  border:0;
+  font-size:30px;
+  font-family:fantasy;
+  font-weight:bold;
+  position:fixed;
+  bottom:0;
+  }   
+.dancebtn {
+           animation-name:dance;
+           animation-duration:5s;
+           animation-iteration-count:infinite;
+           border-radius:20px;
+           padding-top:5px;
+           padding-bottom:5px;
+           background:linear-gradient(green,blue);
+           }
+@keyframes dance{
+     0%{background:linear-gradient(skyblue,blue);}      
+    25%{background:linear-gradient(to right,skyblue,blue);}
+    75%{background:linear-gradient(to left,skyblue,blue);}
+   100%{background:linear-gradient(skyblue,blue);}
+           }
