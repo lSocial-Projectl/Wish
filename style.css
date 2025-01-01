@@ -30,7 +30,7 @@ body {margin:0;
       text-align:center;
       }
 .odia h3 {
-           font-size:30px;
+           font-size:20px;
            color:blue;
            font-family:cursive;
            }
@@ -88,7 +88,7 @@ footer button {
   color:white;
   outline:none;
   border:0;
-  font-size:30px;
+  font-size:20px;
   font-family:fantasy;
   font-weight:bold;
   position:fixed;
