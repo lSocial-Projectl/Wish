@@ -1,0 +1,111 @@
+
+body {margin:0;
+      padding:0;
+      }
+
+
+
+
+/*......Top image......*/
+.firstimg {margin:0;
+           width:100%;
+           height:auto;
+           }
+
+
+
+
+/*......video.....*/
+.secondgroup {
+              width:100%;
+              height:350px;
+            //  border:1px solid black;
+              }
+
+
+.odia {
+      width:100%;
+      height:100px;
+     // border:1px solid blue;
+      text-align:center;
+      }
+.odia h3 {
+           font-size:30px;
+           color:blue;
+           font-family:cursive;
+           }
+marquee{
+       background:orange;
+       color:red;
+       font-weight:bolder;
+       font-size:20px;
+       }
+/*.........2nd video main.........*/
+.box {
+position:relative;
+text-align:center;
+justify-items:center;
+align-content:center;
+}
+.Thirdgroup  {
+             width:100%;
+             height:500px;
+          //   border:1px solid black;
+            }
+.Thirdgroup video {
+                   width:100%;
+                   height:auto;
+                   }
+.box h2{position:absolute;
+        color:yellow;
+        
+        left:25%;
+        right:25%;
+        text-shadow:0px 0px 10px yellow;
+        }
+.it{font-size:60px; font-family:fantasy;}
+.big{font-size:45px; font-family:cursive;}                   
+                   
+/*.......fourth.......*/    
+.fourth {
+        height:390px;
+        width:100%;
+        }               
+.fourth img {
+        position:relative;
+        bottom:-140px;
+       left:25%;
+       right:25%;
+        }               
+               
+               
+               
+               
+/*........Dance button......*/                   
+footer button {
+  width:100%;
+  height:50px;
+  color:white;
+  outline:none;
+  border:0;
+  font-size:30px;
+  font-family:fantasy;
+  font-weight:bold;
+  position:fixed;
+  bottom:0;
+  }   
+.dancebtn {
+           animation-name:dance;
+           animation-duration:5s;
+           animation-iteration-count:infinite;
+           border-radius:20px;
+           padding-top:5px;
+           padding-bottom:5px;
+           background:linear-gradient(green,blue);
+           }
+@keyframes dance{
+     0%{background:linear-gradient(skyblue,blue);}      
+    25%{background:linear-gradient(to right,skyblue,blue);}
+    75%{background:linear-gradient(to left,skyblue,blue);}
+   100%{background:linear-gradient(skyblue,blue);}
+           }
